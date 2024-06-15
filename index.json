@@ -2,10 +2,20 @@
   "recipes": {
 
     "aliases": {
-      "core": "baks-dev/core"
+      "baks-core": "baks-dev/core",
+      "baks-res": "baks-dev/files-res",
+      "baks-sdn": "baks-dev/files-cdn"
     },
 
     "baks-dev/core": [
+      "7.1"
+    ],
+
+    "baks-dev/files-res": [
+      "7.1"
+    ],
+
+    "baks-dev/files-cdn": [
       "7.1"
     ]
 
