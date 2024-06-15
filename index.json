@@ -1,13 +1,14 @@
 {
   "recipes": {
 
-    "baks-dev/recipes": [
-      "1.0"
+    "baks-dev/core": [
+      "7.1"
     ]
 
   },
   "branch": "master",
   "is_contrib": true,
+
   "_links": {
     "repository": "github.com/baks-dev/recipes",
     "origin_template": "{package}:{version}@github.com/baks-dev/recipes:master",
