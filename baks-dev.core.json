@@ -2,6 +2,16 @@
   "manifests": {
     "baks-dev/core": {
       "manifest": {
+
+        "bundles": {
+          "BaksDev\\Core\\BaksDevCoreBundle": [
+            "all"
+          ]
+        },
+
+        "env": {
+          "HOST": "you.domain.name"
+        }
       },
       "ref": "2e3655c4-fff9-7707-8d0d-9081c5c8d166"
     }
