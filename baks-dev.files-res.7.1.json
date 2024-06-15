@@ -4,7 +4,7 @@
       "manifest": {
 
         "bundles": {
-          "BaksDev\\Files\\Resources": [
+          "BaksDev\\Files\\Resources\\BaksDevFilesResourcesBundle": [
             "all"
           ]
         },

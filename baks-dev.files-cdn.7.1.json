@@ -4,7 +4,7 @@
       "manifest": {
 
         "bundles": {
-          "BaksDev\\Files\\Cdn": [
+          "BaksDev\\Files\\Cdn\\BaksDevFilesCdnBundle": [
             "all"
           ]
         },
