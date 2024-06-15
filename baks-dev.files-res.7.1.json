@@ -1,0 +1,17 @@
+{
+  "manifests": {
+    "baks-dev/files-res": {
+      "manifest": {
+        "bundles": {
+          "BaksDev\\Files\\Resources": [
+            "all"
+          ]
+        },
+        "env": {
+          "HOST": "you.domain.name"
+        }
+      },
+      "ref": "9085af44-8ac1-7939-a195-f32e486be95a"
+    }
+  }
+}

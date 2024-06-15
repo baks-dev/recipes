@@ -2,23 +2,22 @@
   "manifests": {
     "baks-dev/core": {
       "manifest": {
-
         "bundles": {
           "BaksDev\\Core\\BaksDevCoreBundle": [
             "all"
           ]
         },
-
         "composer-scripts": {
           "baks:cache:clear": "symfony-cmd",
           "baks:assets:install": "symfony-cmd"
         },
-
         "env": {
-          "HOST": "you.domain.name"
+          "REDIS_HOST": "localhost",
+          "REDIS_PORT": 6379,
+          "REDIS_PASSWORD": "password"
         }
       },
-      "ref": "6747a735b09e4d6f1794277b0f323c05675c455f"
+      "ref": "1d1a2be6-a1d0-721e-8504-77afcb057bd2"
     }
   }
 }
