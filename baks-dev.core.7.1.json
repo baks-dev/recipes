@@ -2,15 +2,18 @@
   "manifests": {
     "baks-dev/core": {
       "manifest": {
+
         "bundles": {
           "BaksDev\\Core\\BaksDevCoreBundle": [
             "all"
           ]
         },
+
         "composer-scripts": {
           "baks:cache:clear": "symfony-cmd",
           "baks:assets:install": "symfony-cmd"
         },
+
         "env": {
           "REDIS_HOST": "localhost",
           "REDIS_PORT": 6379,
