@@ -9,6 +9,11 @@
           ]
         },
 
+        "composer-scripts": {
+          "baks:cache:clear": "symfony-cmd",
+          "baks:assets:install": "symfony-cmd"
+        },
+
         "env": {
           "HOST": "you.domain.name"
         }
