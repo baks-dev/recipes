@@ -1,8 +1,10 @@
 {
   "recipes": {
+
     "baks-dev/recipes": [
       "1.0"
     ]
+
   },
   "branch": "master",
   "is_contrib": true,
