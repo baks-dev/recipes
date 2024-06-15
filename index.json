@@ -1,6 +1,10 @@
 {
   "recipes": {
 
+    "aliases": {
+      "core": "baks-dev/core"
+    },
+
     "baks-dev/core": [
       "7.1"
     ]
