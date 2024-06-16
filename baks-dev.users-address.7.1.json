@@ -16,7 +16,7 @@
         },
 
         "env": {
-          "MAPS_YANDEX_API":"you_maps_yandex_api_api_key"
+          "MAPS_YANDEX_API":"you_maps_yandex_api_key"
         }
       },
       "ref": "997c63eb-49b1-731c-8dca-77c4aa8e52bb"
