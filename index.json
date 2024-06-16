@@ -21,6 +21,10 @@
 
     "baks-dev/centrifugo": [
       "7.1"
+    ],
+
+    "baks-dev/users-address": [
+      "7.1"
     ]
 
   },
