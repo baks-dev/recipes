@@ -1,0 +1,28 @@
+
+{
+  "manifests": {
+    "baks-dev/core": {
+      "manifest": {
+
+        "bundles": {
+          "BaksDev\\Centrifugo\\BaksDevCentrifugoBundle": [
+            "all"
+          ]
+        },
+
+        "composer-scripts": {
+          "baks:cache:clear": "symfony-cmd",
+          "baks:assets:install": "symfony-cmd"
+        },
+
+        "env": {
+          "CENTRIFUGO_API_KEY":"you_centrifugo_api_key",
+          "CENTRIFUGO_HMAC":"you_centrifugo_hmac",
+          "CENTRIFUGO_DSN":"you.domain:8000",
+          "CENTRIFUGO_TTL":"3600"
+        }
+      },
+      "ref": "a0105260-2b9d-7301-8f41-1a075a82ad7b"
+    }
+  }
+}
