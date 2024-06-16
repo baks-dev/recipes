@@ -1,7 +1,7 @@
 
 {
   "manifests": {
-    "baks-dev/core": {
+    "baks-dev/centrifugo": {
       "manifest": {
 
         "bundles": {

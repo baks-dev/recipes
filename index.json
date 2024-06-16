@@ -17,6 +17,10 @@
 
     "baks-dev/files-cdn": [
       "7.1"
+    ],
+
+    "baks-dev/centrifugo": [
+      "7.1"
     ]
 
   },
