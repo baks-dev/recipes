@@ -1,0 +1,23 @@
+
+{
+  "manifests": {
+    "baks-dev/yandex-market-orders": {
+      "manifest": {
+
+        "bundles": {
+          "BaksDev\\Yandex\\Market\\Orders\\BaksDevYandexMarketOrdersBundle": [
+            "all"
+          ]
+        },
+
+        "composer-scripts": {
+          "baks:users-profile-type:yandex-market": "symfony-cmd",
+          "baks:payment:yandex-market": "symfony-cmd",
+          "baks:delivery:yandex-market": "symfony-cmd"
+        }
+
+      },
+      "ref": "41e1de93-8556-7a83-9780-f08e36a3205b"
+    }
+  }
+}

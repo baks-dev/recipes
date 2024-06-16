@@ -25,6 +25,10 @@
 
     "baks-dev/users-address": [
       "7.1"
+    ],
+
+    "baks-dev/yandex-market-orders": [
+      "7.1"
     ]
 
   },
