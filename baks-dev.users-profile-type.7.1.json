@@ -1,0 +1,23 @@
+
+{
+  "manifests": {
+    "baks-dev/users-profile-type": {
+      "manifest": {
+
+        "bundles": {
+          "BaksDev\\Users\\Profile\\TypeProfile\\BaksDevUsersProfileTypeProfileBundle": [
+            "all"
+          ]
+        },
+
+        "composer-scripts": {
+          "baks:cache:clear": "symfony-cmd",
+          "baks:assets:install": "symfony-cmd"
+        }
+
+
+      },
+      "ref": "2d3967fb-9d6e-72be-b9e4-0ce06626de44"
+    }
+  }
+}

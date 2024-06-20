@@ -4,7 +4,8 @@
     "aliases": {
       "baks-core": "baks-dev/core",
       "baks-res": "baks-dev/files-res",
-      "baks-sdn": "baks-dev/files-cdn"
+      "baks-sdn": "baks-dev/files-cdn",
+      "baks-profile-type": "baks-dev/users-profile-type"
     },
 
     "baks-dev/core": [
@@ -24,6 +25,10 @@
     ],
 
     "baks-dev/users-address": [
+      "7.1"
+    ],
+
+    "baks-dev/users-profile-type": [
       "7.1"
     ]
 
