@@ -1,23 +1,57 @@
-
 {
   "manifests": {
     "baks-dev/auth-email": {
       "manifest": {
-
         "bundles": {
           "BaksDev\\Auth\\Email\\BaksDevAuthEmailBundle": [
             "all"
           ]
         },
-
         "composer-scripts": {
           "baks:cache:clear": "symfony-cmd",
           "baks:assets:install": "symfony-cmd"
         },
-
         "env": {
-          "MAILER_DSN":"null://null"
-        }
+          "MAILER_DSN": "null://null"
+        },
+        "add-lines": [
+          {
+            "file": ".env.test",
+            "content": "TEST_ADMIN_UID=a5419c05-0f86-7900-841a-0c8eebf0c7fa",
+            "position": "bottom",
+            "warn_if_missing": true
+          },
+          {
+            "file": ".env.test",
+            "content": "TEST_ADMIN_PROFILE_UID=1c788a78-9246-77ea-ba26-60575bf178d9",
+            "position": "bottom",
+            "warn_if_missing": true
+          },
+          {
+            "file": ".env.test",
+            "content": "TEST_MODER_UID=5509283c-1ec4-75d6-9f84-8cb77ad3e04e",
+            "position": "bottom",
+            "warn_if_missing": true
+          },
+          {
+            "file": ".env.test",
+            "content": "TEST_MODER_PROFILE_UID=4a95d759-bce5-75d1-b06f-cf8611bb5c219",
+            "position": "bottom",
+            "warn_if_missing": true
+          },
+          {
+            "file": ".env.test",
+            "content": "TEST_USER_UID=9d4afa86-0ad5-7d6b-b2ea-3e6f4d8790db",
+            "position": "bottom",
+            "warn_if_missing": true
+          },
+          {
+            "file": ".env.test",
+            "content": "TEST_USER_PROFILE_UID=2def5557-a135-7ec4-9ee9-fa8a192019e2",
+            "position": "bottom",
+            "warn_if_missing": true
+          }
+        ]
       },
       "ref": "804f0b2c-e771-7e35-960d-1f3e2cae0a04"
     }
