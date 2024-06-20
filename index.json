@@ -1,41 +1,36 @@
 {
   "recipes": {
-
     "aliases": {
       "baks-core": "baks-dev/core",
       "baks-res": "baks-dev/files-res",
       "baks-sdn": "baks-dev/files-cdn",
-      "baks-profile-type": "baks-dev/users-profile-type"
+      "baks-profile-type": "baks-dev/users-profile-type",
+      "baks-email": "baks-dev/auth-email"
     },
-
     "baks-dev/core": [
       "7.1"
     ],
-
     "baks-dev/files-res": [
       "7.1"
     ],
-
     "baks-dev/files-cdn": [
       "7.1"
     ],
-
     "baks-dev/centrifugo": [
       "7.1"
     ],
-
     "baks-dev/users-address": [
       "7.1"
     ],
-
     "baks-dev/users-profile-type": [
       "7.1"
+    ],
+    "baks-dev/auth-email": [
+      "7.1"
     ]
-
   },
   "branch": "master",
   "is_contrib": true,
-
   "_links": {
     "repository": "github.com/baks-dev/recipes",
     "origin_template": "{package}:{version}@github.com/baks-dev/recipes:master",

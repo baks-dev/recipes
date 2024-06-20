@@ -1,0 +1,25 @@
+
+{
+  "manifests": {
+    "baks-dev/auth-email": {
+      "manifest": {
+
+        "bundles": {
+          "BaksDev\\Auth\\Email\\BaksDevAuthEmailBundle": [
+            "all"
+          ]
+        },
+
+        "composer-scripts": {
+          "baks:cache:clear": "symfony-cmd",
+          "baks:assets:install": "symfony-cmd"
+        },
+
+        "env": {
+          "MAILER_DSN":"null://null"
+        }
+      },
+      "ref": "804f0b2c-e771-7e35-960d-1f3e2cae0a04"
+    }
+  }
+}
