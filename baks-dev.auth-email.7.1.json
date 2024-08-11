@@ -35,7 +35,7 @@
           },
           {
             "file": ".env.test",
-            "content": "TEST_MODER_PROFILE_UID=4a95d759-bce5-75d1-b06f-cf8611bb5c219",
+            "content": "TEST_MODER_PROFILE_UID=b3fbf6f9-5116-7f44-9b41-729138b4080f",
             "position": "bottom",
             "warn_if_missing": true
           },
