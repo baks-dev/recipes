@@ -1,0 +1,21 @@
+{
+  "manifests": {
+    "baks-dev/auth-google": {
+      "manifest": {
+
+        "bundles": {
+          "BaksDev\\Auth\\Google\\BaksDevAuthGoogleBundle": [
+            "all"
+          ]
+        },
+
+        "env": {
+          "GOOGLE_CLIENT_ID": "null",
+          "GOOGLE_CLIENT_SECRET": "null"
+        }
+
+      },
+      "ref": "102930c0-f691-7931-9f82-22d9ef62bae5"
+    }
+  }
+}

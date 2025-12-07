@@ -2,19 +2,16 @@
   "manifests": {
     "baks-dev/files-cdn": {
       "manifest": {
-
         "bundles": {
           "BaksDev\\Files\\Cdn\\BaksDevFilesCdnBundle": [
             "all"
           ]
         },
-
         "env": {
           "CDN_HOST": "you.domain.name",
           "CDN_USER": "user",
           "CDN_PASS": "password"
         }
-
       },
       "ref": "681dad94-fb8f-779d-9589-0b0764e4943a"
     }

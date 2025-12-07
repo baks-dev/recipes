@@ -8,23 +8,23 @@
       "baks-email": "baks-dev/auth-email"
     },
     "baks-dev/core": [
-      "7.1"
+      "7.3"
     ],
     "baks-dev/files-res": [
-      "7.1"
+      "7.3"
     ],
     "baks-dev/files-cdn": [
-      "7.1"
+      "7.3"
     ],
     "baks-dev/centrifugo": [
-      "7.1"
+      "7.3"
     ],
     "baks-dev/users-address": [
-      "7.1"
+      "7.3"
     ],
 
     "baks-dev/auth-email": [
-      "7.1"
+      "7.3"
     ]
   },
   "branch": "master",

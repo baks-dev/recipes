@@ -1,0 +1,18 @@
+{
+  "manifests": {
+    "baks-dev/auth-vk": {
+      "manifest": {
+        "bundles": {
+          "BaksDev\\Auth\\Vk\\BaksDevAuthVkBundle": [
+            "all"
+          ]
+        },
+        "env": {
+          "VK_CLIENT_ID": "null",
+          "VK_CODE_VERIFIER": "null"
+        }
+      },
+      "ref": "0fd2eb30-e2aa-7e0b-b077-75637bc310a0"
+    }
+  }
+}
