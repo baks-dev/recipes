@@ -5,8 +5,12 @@
       "baks-res": "baks-dev/files-res",
       "baks-sdn": "baks-dev/files-cdn",
       "baks-profile-type": "baks-dev/users-profile-type",
-      "baks-email": "baks-dev/auth-email"
+      "baks-email": "baks-dev/auth-email",
+      "baks-auth-google": "baks-dev/auth-google",
+      "baks-auth-yandex": "baks-dev/auth-yandex",
+      "baks-auth-vk": "baks-dev/auth-vk"
     },
+
     "baks-dev/core": [
       "7.3"
     ],
@@ -24,6 +28,15 @@
     ],
 
     "baks-dev/auth-email": [
+      "7.3"
+    ],
+    "baks-dev/auth-google": [
+      "7.3"
+    ],
+    "baks-dev/auth-yandex": [
+      "7.3"
+    ],
+    "baks-dev/auth-vk": [
       "7.3"
     ]
   },
