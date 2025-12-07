@@ -10,8 +10,8 @@
         },
 
         "env": {
-          "GOOGLE_CLIENT_ID": "null",
-          "GOOGLE_CLIENT_SECRET": "null"
+          "GOOGLE_CLIENT_ID": "you_google_client_id",
+          "GOOGLE_CLIENT_SECRET": "you_google_client_secret"
         }
 
       },

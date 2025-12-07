@@ -8,8 +8,8 @@
           ]
         },
         "env": {
-          "VK_CLIENT_ID": "null",
-          "VK_CODE_VERIFIER": "null"
+          "VK_CLIENT_ID": "you_vk_client_id",
+          "VK_CODE_VERIFIER": "you_google_code_verifier"
         }
       },
       "ref": "0fd2eb30-e2aa-7e0b-b077-75637bc310a0"

@@ -8,8 +8,8 @@
           ]
         },
         "env": {
-          "YANDEX_CLIENT_ID": "null",
-          "YANDEX_CLIENT_SECRET": "null"
+          "YANDEX_CLIENT_ID": "you_yandex_client_id",
+          "YANDEX_CLIENT_SECRET": "you_yandex_client_secret"
         }
       },
       "ref": "16b4c51f-a373-757f-87c5-0fa15174f3d6"
